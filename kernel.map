@@ -1,7 +1,7 @@
      VMA      LMA     Size Align Out     In      Symbol
        0        0 80200000     1 . = 0x80200000
 80200000 80200000      238     2 .text
-80200000 80200000        e     2         /tmp/kernel-af884c.o:(.text.boot)
+80200000 80200000        e     2         /tmp/kernel-aadadf.o:(.text.boot)
 80200000 80200000        0     1                 
 80200000 80200000        0     1                 
 80200000 80200000        0     1                 $x.1
@@ -9,7 +9,7 @@
 80200000 80200000        e     1                 boot
 8020000e 8020000e        0     1                 
 8020000e 8020000e        0     1                 
-8020000e 8020000e       84     2         /tmp/kernel-af884c.o:(.text)
+8020000e 8020000e       84     2         /tmp/kernel-aadadf.o:(.text)
 8020000e 8020000e        0     1                 
 8020000e 8020000e        0     1                 
 8020000e 8020000e        0     1                 $x.0
@@ -69,7 +69,7 @@
 80200090 80200090        0     1                 
 80200092 80200092        0     1                 
 80200092 80200092        0     1                 
-80200092 80200092      1a6     2         /tmp/common-e7dc59.o:(.text)
+80200092 80200092      1a6     2         /tmp/common-145826.o:(.text)
 80200092 80200092        0     1                 
 80200092 80200092        0     1                 
 80200092 80200092        0     1                 $x.0
@@ -215,7 +215,7 @@
 8020026c 8020026c    20000     1 . += 128 * 1024
 8022026c 8022026c        0     1 __stack_top = .
        0        0      2e6     1 .debug_loc
-       0        0      130     1         /tmp/kernel-af884c.o:(.debug_loc)
+       0        0      130     1         /tmp/kernel-aadadf.o:(.debug_loc)
        0        0        0     1                 
        0        0        0     1                 $d.3
       3c       3c        0     1                 
@@ -226,7 +226,7 @@
       c7       c7        0     1                 
       f8       f8        0     1                 
      113      113        0     1                 
-     130      130      1b6     1         /tmp/common-e7dc59.o:(.debug_loc)
+     130      130      1b6     1         /tmp/common-145826.o:(.debug_loc)
      130      130        0     1                 
      130      130        0     1                 $d.2
      14e      14e        0     1                 
@@ -237,20 +237,20 @@
      25b      25b        0     1                 
      2bb      2bb        0     1                 
        0        0      264     1 .debug_abbrev
-       0        0      177     1         /tmp/kernel-af884c.o:(.debug_abbrev)
+       0        0      177     1         /tmp/kernel-aadadf.o:(.debug_abbrev)
        0        0        0     1                 $d.4
-     177      177       ed     1         /tmp/common-e7dc59.o:(.debug_abbrev)
+     177      177       ed     1         /tmp/common-145826.o:(.debug_abbrev)
      177      177        0     1                 $d.3
        0        0      561     1 .debug_info
-       0        0      39d     1         /tmp/kernel-af884c.o:(.debug_info)
+       0        0      39d     1         /tmp/kernel-aadadf.o:(.debug_info)
        0        0        0     1                 $d.5
-     39d      39d      1c4     1         /tmp/common-e7dc59.o:(.debug_info)
+     39d      39d      1c4     1         /tmp/common-145826.o:(.debug_info)
      39d      39d        0     1                 $d.4
        0        0       30     1 .debug_ranges
-       0        0       18     1         /tmp/kernel-af884c.o:(.debug_ranges)
+       0        0       18     1         /tmp/kernel-aadadf.o:(.debug_ranges)
        0        0        0     1                 
        0        0        0     1                 $d.6
-      18       18       18     1         /tmp/common-e7dc59.o:(.debug_ranges)
+      18       18       18     1         /tmp/common-145826.o:(.debug_ranges)
       18       18        0     1                 
       18       18        0     1                 $d.5
        0        0      170     1 .debug_str
@@ -260,17 +260,17 @@
        0        0       2b     1 .riscv.attributes
        0        0       2b     1         <internal>:(.riscv.attributes)
        0        0       b0     4 .debug_frame
-       0        0       6c     4         /tmp/kernel-af884c.o:(.debug_frame)
+       0        0       6c     4         /tmp/kernel-aadadf.o:(.debug_frame)
        0        0        0     1                 
        0        0        0     1                 $d.10
-      6c       6c       44     4         /tmp/common-e7dc59.o:(.debug_frame)
+      6c       6c       44     4         /tmp/common-145826.o:(.debug_frame)
       6c       6c        0     1                 
       6c       6c        0     1                 $d.9
        0        0      36a     1 .debug_line
-       0        0      105     1         /tmp/kernel-af884c.o:(.debug_line)
+       0        0      105     1         /tmp/kernel-aadadf.o:(.debug_line)
        0        0        0     1                 .Lline_table_start0
        0        0        0     1                 $d.11
-     105      105      265     1         /tmp/common-e7dc59.o:(.debug_line)
+     105      105      265     1         /tmp/common-145826.o:(.debug_line)
      105      105        0     1                 .Lline_table_start0
      105      105        0     1                 $d.10
        0        0     1220     4 .symtab
